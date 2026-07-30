@@ -53,7 +53,7 @@ class Member(ABC):
             print(f"归还失败,您未借阅图书{book.title}")
     def get_password(self):
         return self.__password
-    def get__borrowed_books(self):
+    def get_borrowed_books(self):
         return self.__borrowed_books
     #获取最大借阅数量,不同会员
     @abstractmethod
@@ -75,7 +75,7 @@ class VIPMember(Member):
 
 
 #图书馆管理系统
-class librarySystem():
+class LibrarySystem ():
     def __init__(self):
         self.books = {}
         self.members = {}
@@ -91,7 +91,9 @@ class librarySystem():
                 if member['卡号'].startswith('N'):
                     self.members[member['卡号']]=NormalMember(member['卡号'],member['姓名'],member['密码'])
                 elif member['卡号'].startswith('V'):
+
                     self.members[member['卡号']]=VIPMember(member['卡号'],member['姓名'],member['密码'],member['会员等级'])
+            print("加载会员数据成功")
     def load_books_data(self):
 
         with open("data/books.json", "r", encoding="utf-8") as f:
@@ -102,6 +104,7 @@ class librarySystem():
 
     def login(self):
         while True:
+            print()
             print("[登录]")
             member_id = input("请输入会员卡号:")
             password = input("请输入会员密码:")
@@ -114,11 +117,50 @@ class librarySystem():
 
             if password == member.get_password():
                 self.current_member = member
-                print(f"登陆成功!欢迎您,${member.ame})
+                print(f"登录成功!欢迎您{member.name}")
                 return True
             else:
                 print("密码错误")
                 continue
+
+
+    def borrow_book(self):
+        #1.展示当前图书的图书列表
+        for book in self.books.values():
+            print(f"编号,{book.book_id},标题:{book.title},作者:{book.author},总数:{book.total_num},可用:{book.get_available_num()}")
+        #获取用户输入
+        book_id = input("请输入要借阅的图书编号:")
+        if book_id not in self.books:
+            print("此编号不存在,请重新输入")
+            return
+        else:
+            self.current_member.borrow_book(self.books[book_id])
+
+    def return_book(self):
+        #展示出当前会员的借阅列表
+        borrowed_books = self.current_member.get_borrowed_books()
+        print("已借阅的图书列表:")
+        for book in borrowed_books:
+            print(f"编号:{book.book_id},标题:{book.title}")
+
+
+        #获取输入的编号
+        book_id = input('请输入要归还的编号')
+        if book_id not in self.books:
+            print("此编号不存在,还书失败")
+            return
+        else:
+            self.current_member.return_book(self.books[book_id])
+    def show_borrowed_books(self):
+        borrowed_books = self.current_member.get_borrowed_books()
+        if len(borrowed_books) > 0:
+            print("已借阅的图书列表如下:")
+            for book in borrowed_books:
+                print(f"编号:{book.book_id},标题:{book.title}")
+        else:
+            print("您并未借阅任何一本图书!")
+
+
     def run(self):
         if self.login():
             while True:
@@ -126,15 +168,16 @@ class librarySystem():
                 print('2:归还图书')
                 print('3:查看借阅')
                 print('4:退出系统')
+                print()
 
-                choice = input("请选择操作(1-4)")
+                choice = input("请选择操作(1-4):")
                 match choice:
                     case '1':
                         self.borrow_book()
                     case '2':
                         self.return_book()
                     case '3':
-                        self.show_borrowrd_books()
+                        self.show_borrowed_books()
                     case '4':
                         print("退出系统,加纳")
                         break
@@ -145,6 +188,7 @@ class librarySystem():
 
 
 if __name__ == '__main__':
-
+    ls = LibrarySystem()
+    ls.run()
 
 
