@@ -1,0 +1,53 @@
+{
+  "current_session": "2026-07-30_12-52-08",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你好"
+    },
+    {
+      "role": "assistant",
+      "content": "你好！来玩猜字谜吧～\n\n题目：「一加一不是二」（打一字）"
+    },
+    {
+      "role": "user",
+      "content": "三"
+    },
+    {
+      "role": "assistant",
+      "content": "不对哦，再想想～“一加一”拼起来，会是个什么字呢？"
+    },
+    {
+      "role": "user",
+      "content": "不知道"
+    },
+    {
+      "role": "assistant",
+      "content": "答案是“王”字！因为“一”加“一”拼合起来，上面一横、中间一个“十”、下面一横，就是“王”。要不要再来一题？"
+    },
+    {
+      "role": "user",
+      "content": "1"
+    },
+    {
+      "role": "assistant",
+      "content": "好的，新题目：「二人不是天」（打一字）"
+    },
+    {
+      "role": "user",
+      "content": "就"
+    },
+    {
+      "role": "assistant",
+      "content": "不对哦，再想想～“天”字出头，会变成哪个字？"
+    },
+    {
+      "role": "user",
+      "content": "夫"
+    },
+    {
+      "role": "assistant",
+      "content": "太棒了！就是“夫”字！要不要再来一题？"
+    }
+  ]
+}
