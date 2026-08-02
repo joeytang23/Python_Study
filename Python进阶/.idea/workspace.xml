@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6d9c65a2-4ee0-4d0b-ac16-20252480cb6c" name="更改" comment="闭包" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0000000138138236" />
+      <entry key="MS500" value="1.046418990276041" />
+      <entry key="S2" value="1.805799647550037" />
+      <entry key="S5" value="2.602558150274164" />
+      <entry key="S10" value="3.1366420614699875" />
+      <entry key="S30" value="3.767583522592008" />
+      <entry key="S60" value="4.508366294781564" />
+      <entry key="M2" value="7.252673280788911" />
+      <entry key="M5" value="21.679448434679657" />
+      <entry key="M10" value="42.083818032166185" />
+      <entry key="M15" value="54.57188180322233" />
+      <entry key="M30" value="72.1073124833691" />
+      <entry key="H1" value="83.450917014701" />
+      <entry key="H2" value="89.922680675884" />
+      <entry key="H4" value="93.3819538867495" />
+      <entry key="D1" value="96.38563768522623" />
+      <entry key="W1" value="96.91195148817049" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.5263972392217304E-26" />
+      <entry key="MS500" value="6.866469801281068E-6" />
+      <entry key="S2" value="0.05118979361623923" />
+      <entry key="S5" value="0.30456034196365545" />
+      <entry key="S10" value="0.5518698596260312" />
+      <entry key="S30" value="0.8202487147716704" />
+      <entry key="S60" value="0.9056758331608888" />
+      <entry key="M2" value="0.9516700232543257" />
+      <entry key="M5" value="0.9803802548708467" />
+      <entry key="M10" value="0.9901415327471353" />
+      <entry key="M15" value="0.9934168420890981" />
+      <entry key="M30" value="0.99670298589354" />
+      <entry key="H1" value="0.99835013191442" />
+      <entry key="H2" value="0.9991747254181426" />
+      <entry key="H4" value="0.9995872775391563" />
+      <entry key="D1" value="0.9999312010910535" />
+      <entry key="W1" value="0.9999901712946304" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9330329967590448" />
+      <entry key="MS500" value="1.0159313622286728" />
+      <entry key="S2" value="1.7102840516645677" />
+      <entry key="S5" value="2.6650495957140445" />
+      <entry key="S10" value="3.46242193411462" />
+      <entry key="S30" value="4.466913453690066" />
+      <entry key="S60" value="5.339916150353061" />
+      <entry key="M2" value="8.15534874830922" />
+      <entry key="M5" value="22.626601579582157" />
+      <entry key="M10" value="43.05003571857261" />
+      <entry key="M15" value="55.54665109678304" />
+      <entry key="M30" value="73.09289512604734" />
+      <entry key="H1" value="84.44314734150505" />
+      <entry key="H2" value="90.91863880667539" />
+      <entry key="H4" value="94.37989137622459" />
+      <entry key="D1" value="97.3852879511423" />
+      <entry key="W1" value="97.91190137686293" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3HGibucFI44JgjEEVQpzbdYv13y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.01.闭包入门.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "E:/Desktop/代码及项目/Python/Python01/Python02",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="01.闭包入门" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python02" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.13 (PyCharmMiscProject)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/第一章" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/第一章/01.闭包入门.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.01.闭包入门" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.8665.369" />
+        <option value="bundled-python-sdk-6fa658e1df1a-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.369" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="6d9c65a2-4ee0-4d0b-ac16-20252480cb6c" name="更改" comment="" />
+      <created>1785500880355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1785500880355</updated>
+      <workItem from="1785500881361" duration="17000" />
+      <workItem from="1785500907363" duration="41000" />
+      <workItem from="1785500961602" duration="220000" />
+      <workItem from="1785578245990" duration="1805000" />
+      <workItem from="1785592060565" duration="4000" />
+      <workItem from="1785643932301" duration="1629000" />
+      <workItem from="1785646250196" duration="607000" />
+    </task>
+    <task id="LOCAL-00001" summary="闭包">
+      <option name="closed" value="true" />
+      <created>1785646296563</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1785646296563</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="闭包" />
+    <option name="LAST_COMMIT_MESSAGE" value="闭包" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python02$01_.coverage" NAME="01.闭包入门 覆盖结果" MODIFIED="1785644333826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/第一章" />
+  </component>
+</project>
